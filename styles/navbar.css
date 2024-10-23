@@ -31,6 +31,6 @@ a {
 
 .nav-links li:last-child {
     padding: 0 5px;
-    background-color: gray;
+    background-color: #1318da;
     border-radius: 20px;
 }
