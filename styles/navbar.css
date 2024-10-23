@@ -1,10 +1,10 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 .navbar {
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,10 +21,11 @@ a {
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 4px;
+    color: #ffffff;
 }
 
 .nav-links a:hover {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.3);
     transition: all 0.3s;
 }
 
@@ -33,5 +34,3 @@ a {
     background-color: gray;
     border-radius: 20px;
 }
-
-
