@@ -64,3 +64,67 @@
     text-shadow: 2px 2px 2px black;
 }
 
+.community {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community > div > h1 {
+    padding: 30px;
+}
+
+.community-2 {
+    display: flex;
+
+}
+
+.community-2 > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.community-2 > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(234, 232, 232, 0.5);
+    padding: 30px;
+    gap: 40px;
+}
+
+.community-2 > div > div:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.community-2 img {
+    width: 400px;
+    height: 300px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.donwload-div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.donwload-div > div {
+    display: flex;
+    gap: 30px;
+}
