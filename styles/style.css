@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 55px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    background-color: black;
+    transition: all 0.3s;
+}
+
+.nav-links li:last-child {
+    padding: 0 5px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+
